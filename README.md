@@ -14,7 +14,7 @@ This VSCode extension enhances the development experience for the Mountaineer we
 
 ### Prerequisites
 
-- Visual Studio Code ^1.58.0
+- Visual Studio Code ^1.87.0
 - Node.js 18+
 
 ### Generate package
