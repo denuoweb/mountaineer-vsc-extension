@@ -1,0 +1,40 @@
+{
+    "name": "mountaineer-vscode-extension",
+    "displayName": "Mountaineer Framework Support",
+    "description": "Provides enhanced support for the Mountaineer framework in VSCode.",
+    "version": "1.0.0",
+    "publisher": "Jaron Rosenau",
+    "repository": "https://github.com/denuoweb/mountaineer-vsc-extension",
+    "engines": {
+        "vscode": "^1.87.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "activationEvents": [
+        "workspaceContains:**/*.py",
+        "workspaceContains:**/*.tsx"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "mountaineer-vscode-extension.enable",
+                "title": "Enable Mountaineer Framework Support"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@types/node": "^12.20.55",
+        "@types/vscode": "^1.87.0",
+        "@vscode/test-cli": "^0.0.6",
+        "typescript": "^5.3.3"
+    }
+}
