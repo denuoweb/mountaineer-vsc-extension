@@ -43,6 +43,12 @@ No additional configuration is needed to start using this extension. Future vers
 
 Contributions to improve the extension are welcome. Please follow the standard fork and pull request workflow.
 
+### To Fix
+
+- Adding template to bottom of existing file.
+- view_path path issues extra /view/app 
+
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
